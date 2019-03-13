@@ -133,7 +133,7 @@ func (m *Master) Generate(dependencies asset.Parents) error {
 		mpool.Set(ic.Platform.BareMetal.DefaultMachinePlatform)
 		mpool.Set(pool.Platform.BareMetal)
 		pool.Platform.BareMetal = &mpool
-		machines, err = baremetal.Machines(clusterID.ClusterID, ic, pool, "master", "master-user-data")
+		machines, err = baremetal.Machines(clusterID.InfraID, ic, pool, "master", "master-user-data")
 		if err != nil {
 			return errors.Wrap(err, "failed to create master machine objects")
 		}
