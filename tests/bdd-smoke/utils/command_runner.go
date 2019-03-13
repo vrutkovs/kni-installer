@@ -34,7 +34,7 @@ func RunOSCommandWithArgs(command string, arguments []string, path string) strin
 
 // RunInstallerWithSurvey run the installer given the command arguments, the path where will be launched and the command line values for survey
 func RunInstallerWithSurvey(arguments []string, path string, commandLineArgs [][]string) string {
-	openshiftInstallBin := os.Getenv("GOPATH") + "/src/github.com/openshift/installer/bin/openshift-install"
+	openshiftInstallBin := os.Getenv("GOPATH") + "/src/github.com/metalkube/kni-installer/bin/openshift-install"
 
 	c, state, errVt10x := vt10x.NewVT10XConsole()
 	if errVt10x != nil {

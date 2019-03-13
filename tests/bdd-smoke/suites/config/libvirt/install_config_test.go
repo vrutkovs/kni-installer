@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/openshift/installer/tests/bdd-smoke/utils"
+	"github.com/metalkube/kni-installer/tests/bdd-smoke/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/installer/pkg/asset"
+	"github.com/metalkube/kni-installer/pkg/asset"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

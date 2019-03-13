@@ -6,9 +6,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/pricing"
-	awsutil "github.com/openshift/installer/pkg/asset/installconfig/aws"
-	"github.com/openshift/installer/pkg/types/aws/defaults"
-	"github.com/openshift/installer/pkg/types/aws/validation"
+	awsutil "github.com/metalkube/kni-installer/pkg/asset/installconfig/aws"
+	"github.com/metalkube/kni-installer/pkg/types/aws/defaults"
+	"github.com/metalkube/kni-installer/pkg/types/aws/validation"
 	"github.com/stretchr/testify/assert"
 )
 
